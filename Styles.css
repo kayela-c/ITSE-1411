@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    font-size: 1.5rem;
+    
+}
+
+body {
+    color: #E9D5DA;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.spacing {
+    padding: 2rem 0;
+}
+
+
+.title, 
+.footer {
+    padding: 6rem 0; 
+
+    
+}
+
+/* Hello World will stay center because I did not set a min width */
+.content {
+    text-align: left;
+    max-width: 500px;
+   
+}
+
+
+
+.container {
+    display: grid;
+    
+}
+
+.cont1 {
+    background-color: #827397;
+}
+.cont2 {
+    background-color: #4D4C7D;
+}
+
+
+
+.col {
+    margin: 0 auto;
+}
+
