@@ -12,6 +12,10 @@ body {
     
 }
 
+.mainImg {
+	position: absolute;
+}
+
 .spacing {
     padding: 2rem 0;
 }
