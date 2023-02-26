@@ -1,3 +1,11 @@
+:root {
+    --table-color: rgba(115, 185, 215, 0.5);
+    --row-bg-color: rgba(115, 185, 215);
+}
+body {
+    background-color: black;
+}
+
 #game-table {
     border: 2px solid black;
 }
