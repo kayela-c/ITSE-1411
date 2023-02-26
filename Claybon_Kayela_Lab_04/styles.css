@@ -25,4 +25,5 @@ li {
 .recommended {
 	background-color: yellow;
 	text-decoration: underline;
+	color: inherit;
 }
