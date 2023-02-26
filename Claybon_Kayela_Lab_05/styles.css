@@ -1,6 +1,6 @@
 :root {
-    --table-color: rgba(115, 185, 215, 0.5);
-    --row-bg-color: rgba(115, 185, 215);
+    --table-color: rgb(84, 140, 168);
+    --row-bg-color: rgba(84, 140, 168, 0.5);
 }
 
 #game-table {
@@ -17,6 +17,6 @@
     padding: 10px;
 }
 
-#game-table:nth-child(even) > tr {
+tr:nth-child(even) {
     background-color: var(--row-bg-color);
 }
