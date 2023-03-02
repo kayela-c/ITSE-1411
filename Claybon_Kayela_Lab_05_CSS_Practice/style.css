@@ -1,0 +1,54 @@
+/* styling for body*/
+body {
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+/* styling for title */
+.title {
+    font-size: 16pt !important;
+    font-style: italic;
+    color: blue;
+}
+/* styling for outside container */
+.container {
+    background-color: #F0F0F0;
+    width: 600px;
+    height: 280px;
+    /* shorthand for border: size, type, color */
+    border: 2px solid blue;
+    padding: 5px !important;
+}
+
+/* styling for divs that share attributes */
+.box {  
+    width: 200px;
+    padding: 10px !important;
+}
+
+.float-left {
+    float: left;
+}
+
+/* styling for individual paragraphs */
+
+#para-1{
+    background-color: yellow;
+    margin-right: 10px !important;
+}
+
+#para-3{
+    background-color: orange;
+    position: absolute;
+    top: 200px;
+    left: 110px;
+}
+#para-4{
+    background-color: rgb(255, 80, 0);
+    color: #fff;
+    float: right;
+    /* shorthand for margin added important to override my initial styling*/
+    /*margin: top, right, left, bottom*/
+    margin: 20px 40px 0px 0px !important;
+}
+
